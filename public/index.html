@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/output.css" rel="stylesheet">
+  
+</head>
+  
+  <body class="bg-gradient-to-r from-purple-400 to-pink-500 min-h-screen flex flex-col items-center justify-center">
+    <div class="text-xl mt-30  bg-white p-8 items-center rounded-lg shadow-lg flex flex-col">
+      <h1 class="text-3xl text-center font-bold text-purple-600 mb-8">Regex!</h1>
+
+    <!--elemen-->
+    <div class="flex "> <!--div pemersatu nim/tanggal lahir/no telp/dan gmail-->
+
+      <div class="pr-48 "> <!--div nim & tanggal lahir-->
+        <h3 class=" mb-2 font-semibold">NIM :</h3>
+        <div class="mb-4 w-full ">
+          <input id="nim" class="border border-gray-300  rounded-lg focus:outline-none focus:border-purple-400 " type="text" placeholder="Masukkan NIM">
+        </div> 
+   
+        <h3 class=" mb-2 font-semibold">Tgl Lahir : </h3>
+        <div class="mb-4 w-full ">
+          <input id="tanggal-lahir" class="border border-gray-300  rounded-lg focus:outline-none focus:border-purple-400 " type="text" placeholder="Masukkan Tanggal Lahir">
+        </div> 
+      </div> <!--div nim dan tanggal lahir-->
+
+      <div> <!--div no hp dan gmail-->
+        <h3 class="mb-2 font-semibold">No Hp :</h3>
+        <div class="mb-4 w-full ">
+          <input id="nomor-hp" class="border border-gray-300  rounded-lg focus:outline-none focus:border-purple-400 " type="text" placeholder="Masukkan No Telepon">
+        </div>
+
+        <h3 class="mb-2 font-semibold">Gmail :</h3>
+        <div class="mb-4 w-full">
+          <input id="email" class="border border-gray-300  rounded-lg focus:outline-none focus:border-purple-400 " type="text" placeholder="Masukkan gmail ">
+        </div>
+      </div> <!--div no hp dan gmail-->
+
+    </div><!--div pemersatu nim/tanggal lahir/no telp/dan gmail-->
+  
+        <h3 class=" mb-2 font-semibold">URL :</h3>
+        <div class=" flex flex-col w-full "   >
+          <input id="url" class="border border-gray-300  rounded-lg focus:outline-none focus:border-purple-400 " type="text" placeholder="Masukkan url">
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+        
+        <script src="js/script.js"></script>
+
+  </body>
+</html>
